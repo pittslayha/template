@@ -1,0 +1,98 @@
+body {
+	background-color: #FFF;
+	font-family: 'Hind Guntur', sans-serif;
+}
+
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("race.jpg");
+	height: 40vh;
+	width: 100%;
+	display: flex;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text {
+	color: #000000;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+}
+
+main {
+	text-align: left;
+	
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: left;
+}
+
+p {
+	font-size: 19px;
+}
+
+#home {
+	font-size: 24px;
+}
+
+#about {
+	text-align: left;
+	padding-top: 20px;
+}
+
+#about {
+	padding-top: 20px;
+}
+
+#contact {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer {
+	text-align: center;
+	clear: right;
+}
+
+.footer img {
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	margin: 10px 1px;
+	padding: 5px;
+}
+
+/* tablet screen resolution */
+@media only screen and (min-width: 481px) {
+	body {
+		font-size: 15px;
+	}
+
+	h2 {
+		margin-top: .8em;
+		margin-bottom: .8em;
+	}
+}
+
+/* mobile screen resolution */
+@media only screen and (min-width: 600px) {
+
+
+}
+
+/* desktop screen resolution */
+@media only screen and (min-width: 1025px) {
+	
+
+}
+
